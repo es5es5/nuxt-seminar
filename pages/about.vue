@@ -12,8 +12,17 @@
 
 <script>
 export default {
+  layout: 'hi',
   meta: {
     theme: 'dark'
+  },
+  metaInfo: {
+    title: 'My Example App',
+    titleTemplate: '%s - Yay!',
+    htmlAttrs: {
+      lang: 'en',
+      amp: true
+    }
   }
 }
 </script>
