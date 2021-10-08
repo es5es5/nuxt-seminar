@@ -1,4 +1,5 @@
-# nuxt-seninar
+# Hello Chungdahm !
+##### This project is Nuxt Seminar for Chungdahm Dev Team.
 
 ## Build Setup
 

@@ -19,7 +19,7 @@ export default {
   name: 'Parent',
   data () {
     return {
-      childId: 'blue'
+      childId: 'red'
     }
   },
   meta: {

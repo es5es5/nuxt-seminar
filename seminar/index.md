@@ -13,7 +13,7 @@ $ npm init nuxt-app <Project>
  /Pages 에서 
 
 - Pages
- Nuxt 와 Vue 의 가장 크게 다른 점이라고 생각함
+ <b>Nuxt 와 Vue 의 가장 크게 다른 점이라고 생각함</b>
  /Pages 에 `.vue` 파일을 넣으면 자동으로 라우팅 설정
 
     - 동적 라우팅

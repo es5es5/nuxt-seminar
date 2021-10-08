@@ -11,6 +11,13 @@ export default {
         _childId () {
            return this.$route.params.childId
         }
+    },
+    meta() {
+        return {
+                theme: () => {
+            return 'this._childId'
+            }
+        }
     }
 }
 </script>

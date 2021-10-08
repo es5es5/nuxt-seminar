@@ -71,4 +71,14 @@ html {
 .theme.blue a {
   color: #eee;
 }
+/*
+** Blue theme
+*/
+.theme.red {
+  background: orangered;
+  color: #f5f5f5;
+}
+.theme.red a {
+  color: #eee;
+}
 </style>
