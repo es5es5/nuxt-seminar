@@ -10,7 +10,12 @@ $ npm init nuxt-app <Project>
 
 - Layouts
  전체 레이아웃 `<Nuxt></Nuxt>` 태그에 Pages 이하 컴포넌트들이 라우팅 되서 들어옴
+ /Pages 에서 
 
 - Pages
  Nuxt 와 Vue 의 가장 크게 다른 점이라고 생각함
- 
+ /Pages 에 `.vue` 파일을 넣으면 자동으로 라우팅 설정
+
+    - 동적 라우팅
+    `/path1/path2/:id`
+    `_id.vue`로 파일 네이밍
