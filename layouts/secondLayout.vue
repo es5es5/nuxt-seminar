@@ -1,19 +1,20 @@
 <template>
   <div :class="$store.state.theme" class="theme">
-    <div class="nav horizontal-align">
-      <NuxtLink class="nav-item" to="/">
-        Home
-      </NuxtLink>
-      <NuxtLink class="nav-item" to="/about">
-        About
-      </NuxtLink>
-      <NuxtLink class="nav-item" to="/parent">
-        Parent page
-      </NuxtLink>
-    </div>
+    <Menu></Menu>
     <Nuxt class="container" />
   </div>
 </template>
+
+<script>
+import Menu from '@/components/Menu.vue'
+
+export default {
+  name: 'SecondLayout',
+  components: {
+    Menu
+  }
+}
+</script>
 
 <style>
 body,
