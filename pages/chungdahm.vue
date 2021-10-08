@@ -14,7 +14,7 @@ export default {
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'Meta description' }
+        { hid: 'description', name: 'Hi Chungdahm', content: 'Hello This is Louis.' }
       ]
     }
   },
