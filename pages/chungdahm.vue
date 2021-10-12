@@ -1,6 +1,8 @@
 <template>
   <div>
       Hi
+      <NuxtLink :to="{ name: 'chungdahm-abc' }">Parent</NuxtLink>
+      <nuxt-child />
   </div>
 </template>
 
