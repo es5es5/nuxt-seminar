@@ -1,6 +1,8 @@
 # Hello Chungdahm !
 ##### This project is Nuxt Seminar for Chungdahm Dev Team.
 
+#### [Seminar script](https://github.com/es5es5/nuxt-seminar/blob/main/seminar/index.md)
+
 ## Build Setup
 
 ```bash

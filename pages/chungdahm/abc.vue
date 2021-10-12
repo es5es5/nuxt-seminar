@@ -1,12 +1,13 @@
 <template>
   <div>
-      ABC
+      Learning Portal
   </div>
 </template>
 
 <script>
 export default {
-    name: 'abc'
+    name: 'abc',
+    transition: 'chungdahm',
 }
 </script>
 

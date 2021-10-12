@@ -1,0 +1,6 @@
+.chungdahm-enter-active, .chungdahm-leave-active {
+    transition: opacity .5s;
+}
+.chungdahm-enter, .chungdahm-leave-active {
+    opacity: 0;
+}

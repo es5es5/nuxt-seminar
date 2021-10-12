@@ -6,7 +6,8 @@
 
 <script>
 export default {
-    name: 'def'
+    name: 'def',
+    transition: 'chungdahm',
 }
 </script>
 
