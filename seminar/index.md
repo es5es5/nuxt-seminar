@@ -24,10 +24,31 @@ $ npm init nuxt-app <Project>
   `/path1/path2/:id`
   `_id.vue`로 파일 네이밍
 
-  - 동적 라우팅
-  ```
-  pages/
-  --| chungdahm/
-  -----| _subCategory/
-  --| chungdahm.vue
-  ```
+  - 중첩 라우팅
+
+  directory
+```
+pages/
+--| chungdahm/
+-----| abc.vue/
+-----| def.vue/
+--| chungdahm.vue
+```
+
+.nuxt/router.js
+```
+{
+  path: "/chungdahm",
+  component: _b5b776fc,
+  name: "chungdahm",
+  children: [{
+    path: "abc",
+    component: _62cf8260,
+    name: "chungdahm-abc"
+  }, {
+    path: "def",
+    component: _7293c0f3,
+    name: "chungdahm-def"
+  }]
+}
+```
