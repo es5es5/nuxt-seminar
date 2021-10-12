@@ -1,8 +1,13 @@
 <template>
   <div>
       Hi
-      <NuxtLink :to="{ name: 'chungdahm-abc' }">Parent</NuxtLink>
+      <NuxtLink :to="{ name: 'chungdahm-abc' }">ABC</NuxtLink>
+      <NuxtLink :to="{ name: 'chungdahm-def' }">DEF</NuxtLink>
+
       <nuxt-child />
+
+      <!-- transition not working -->
+      <!-- <router-view /> -->
   </div>
 </template>
 
