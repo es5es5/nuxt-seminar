@@ -59,3 +59,8 @@ pages/
   `middleware` 를 이용해서 router 에 meta 데이터 넣는 것처럼 동작하기
  - 전체 css 적용하기
   `assets` `nuxt.config.js` 를 이용해서 전체 css 적용
+
+5. 참고자료
+ - [Nuxt.js 한글자료](https://develop365.gitlab.io/nuxtjs-0.10.7-doc/ko/guide/)
+ - [Vue SSR 제대로 적용하기](https://zuminternet.github.io/vue-ssr/)
+ - [어서와, SSR은 처음이지?](https://d2.naver.com/helloworld/7804182)
