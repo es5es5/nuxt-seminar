@@ -55,5 +55,7 @@ pages/
 
 4. 예제
  - 기본적인 라우터 세팅
- - middleware 를 이용해서 router 에 meta 데이터 넣는 것처럼 동작하기
- - assets 에 css를 넣고 nuxt 옵션에 적용하기
+ - 동적으로 테마 컬러 적용하기
+  `middleware` 를 이용해서 router 에 meta 데이터 넣는 것처럼 동작하기
+ - 전체 css 적용하기
+  `assets` `nuxt.config.js` 를 이용해서 전체 css 적용
